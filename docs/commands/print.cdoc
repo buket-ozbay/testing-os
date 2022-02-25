@@ -1,0 +1,7 @@
+print: prints the desired content to the terminal screen
+
+Usage Prototype: print $(content)
+
+Example: 
+>> print Hello 
+Hello

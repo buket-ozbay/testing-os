@@ -1,0 +1,9 @@
+calc: a basic calculator
+
+Usage Prototype: calc $(value1) $(operator) $(value2)
+
+Example : 
+>> calc 5 + 7
+12
+
+Defined Operators : "+", "-", "*", "/", "**", "//", "%"

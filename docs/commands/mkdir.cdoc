@@ -1,0 +1,4 @@
+mkdir: creates a new directory
+
+Example 1: mkdir dir
+Example 2: path/to/your/dir

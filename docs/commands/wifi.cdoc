@@ -1,0 +1,38 @@
+wifi: used to connect and configure wifi network
+
+parameters:
+  on: opens the wifi
+  off: closes the wifi
+  ls: shows the available wifis
+  connect “xxx” “yyy”: connects to hotspot
+    "xxx": hotspot name
+    "yyy": hotspot password
+  disconnect: disconnects from network
+ 	status: shows current network name
+  
+Usage Prototype: wifi on
+
+
+Usage Prototype: wifi off
+
+
+Usage Prototype: wifi ls
+
+Example:
+>> wifi ls
+Available WLANs
+xxx
+yyy
+...
+
+Usage Prototype: wifi connect $(hotspot_name) $(hotspot_password)
+
+Example: wifi connect 
+>> wifi connect wifi_name wifi_password
+connecting to network...
+Connection Successfull
+
+Usage Prototype: wifi disconnect 
+
+Example: wifi disconnect 
+False

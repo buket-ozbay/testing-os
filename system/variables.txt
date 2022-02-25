@@ -1,0 +1,4 @@
+myMessage:"Hello World"
+myConfig:-pin=(2) -name=(myPin) -type=(out)
+ledOn:pin gpio write myPin 1
+ledOff:pin gpio write myPin 0

@@ -1,0 +1,5 @@
+delay: delays the program 
+
+Usage Prototype : delay $(value)
+
+Example: delay 5 ---> delays 5 seconds

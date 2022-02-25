@@ -1,0 +1,7 @@
+cd : change directory.
+
+Usage Prototype : cd $(path)
+
+Example 1 : cd .. --> Goes to parent file.
+Example 2 : cd /path/to/your/doc --> Goes to "/path/to/your/doc" path.
+Example 3 : cd dir --> Goes to the "dir" folder in the folder you are currently in. 

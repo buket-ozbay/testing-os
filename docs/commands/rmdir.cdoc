@@ -1,0 +1,6 @@
+rmdir: removes the directory (the directory should be empty)
+
+Usage Prototype: rmdir $(path)
+
+Example 1: rmdir dir
+Example 2: rmdir path/to/your/dir

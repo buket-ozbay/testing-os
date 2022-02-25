@@ -1,0 +1,15 @@
+pin: all of actions about pins.
+
+usage : pin $(pin_mode) $(pin_action) ...
+
+1.1) Available for "pin_mode" : uart, i2c, adc, gpio, pwm, var
+
+2.1) Available actions for "uart" pins : show, write, listen, p2p, del, update
+2.2) Available actions for "i2c" pins : show, write, listen, p2p, del, update
+2.3) Available actions for "adc" pins : read, listen, del, update
+2.4) Available actions for "gpio" pins : write, read, del, update
+2.5) Available actions for "pwm" pins : write, test, close, del, update
+2.6) Available actions for "var" pins : uart, i2c, adc, gpio, pwm
+
+example : 
+>> pin gpio del $(gpio_pin_name)

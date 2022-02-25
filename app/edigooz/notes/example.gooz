@@ -1,0 +1,7 @@
+pin var gpio -name=(myPin) -pin=(25) -type=(out)
+delay 3
+pin gpio write myPin HIGH
+delay 3
+pin gpio write myPin LOW
+delay 3
+--stop

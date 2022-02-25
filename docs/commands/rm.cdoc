@@ -1,0 +1,6 @@
+rm: removes the file
+
+Usage Prototype: rm $(path)
+
+Example 1: rm file
+Example 2: rm path/to/your/file

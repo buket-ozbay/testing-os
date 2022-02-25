@@ -1,0 +1,4 @@
+ls: lists directory contents
+
+Example 1: ls (lists directory contents we are currently in)
+Example 2: ls path/to/your/dir

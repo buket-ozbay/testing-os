@@ -1,0 +1,6 @@
+cat : prints the contents of the spesific file.
+
+Usage Prototype : cat $(path)
+
+Example 1 : cat /path/to/your/file
+Example 2 : cat ./file

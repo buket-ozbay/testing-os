@@ -1,0 +1,52 @@
+edigooz: a text editor for file formatting
+
+parameters:
+  run: creates new file
+  cat: shows contents of a file
+  ls: shows names of exiting files
+  save: moves the files to flash memory
+  clean: clears all the files from ram
+  
+Usage Prototype: edigooz run 
+
+Example: 
+>>edigooz run
+Hi,
+This is a text maker for gooz
+Have fun!
+
+t_saved
+Save as ? -> example
+t_exit
+>>
+
+
+Usage Prototype: edigooz cat $(filename)
+
+Example:
+>> edigooz cat example
+Hi,
+This is a text maker for gooz
+Have fun!
+
+
+Usage Prototype: edigooz ls
+
+Example: 
+>> edigooz ls
+example
+gooz
+
+
+Usage Prototype: edigooz save $(filename)
+
+Example:
+>> edigooz save example
+example.txt has saved to flash
+
+
+Usage Prototype: edigooz clean 
+
+Example:
+>>edigooz clean 
+Edigooz files are deleted from Ram

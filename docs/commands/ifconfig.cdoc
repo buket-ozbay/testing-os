@@ -1,0 +1,17 @@
+ifconfig: gives detailed information about connection status
+
+Example:
+
+>> ifconfig
+--------------------------
+Network Information
+--------------------------
+<BROADCASTING>
+--------------------------
+Access Point Name: ...
+Access Point MAC Address: b'...'
+--------------------------
+Your Device IP: xxx.xxx.xxx.xxx
+Subnet Mask: xxx.xxx.xxx.x
+Gateway: xxx.xxx.xxx.xxx
+DNS: xxx.xxx.xxx.xxx

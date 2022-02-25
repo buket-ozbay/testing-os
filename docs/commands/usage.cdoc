@@ -1,0 +1,14 @@
+usage: Gives information about Rom and Ram usage
+
+Usage Prototype: 
+
+>> usage
+Total ROM Size: 2.0MB
+Used ROM Size: 0.359MB
+Free ROM Size: 1.641MB
+ROM Usage Percentage: 17.95%
+
+Total RAM Size: 108.625KB
+Used RAM Size: 46.391KB
+Free RAM Size: 62.234KB
+RAM Usage Percentage: 42.71%
